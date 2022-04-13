@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>                                                                                      
+<body>
+    <div class="score">
+        <h1 class="ties"></h1>
+    </div>
+    <div class="winnerDiv">
+        <h1 class="winner"></h1>
+        <h3 class="game-result"></h3>
+    </div>
+    <div class="playerSelection">
+        <h3 class="playerChoice"></h3>
+        <div class="star">
+            <h3 class="pick">Choose Rock, Paper or Scissors!</h3>
+            <img src="./images/star.png" width="30" height="30" id="lol"/>
+        </div>
+        <div class="playerImgs">
+            <img src="./images/rock.png" width="90" height="100" alt="Rock" class="pImg" id="rock"/>
+            <img src="./images/paper.png" width="90" height="100" alt="Paper" class="pImg" id="paper"/>
+            <img src="./images/skarje.png" width="90" height=100" alt="Scissors" class="pImg" id="scissors"/>
+        </div>
+    </div>
+    <div class="computerSelection">
+        <h3 class="computerChoice"></h3>
+        <h3 class="playerScore">Player score:</h3>
+        <h3 class="computerScore">Computer score:</h3>
+        <button class="reset", id="reset">Restart game</button>
+    </div>
+</body>
+<script src="myscript.js"></script>
+</html>
